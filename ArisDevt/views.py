@@ -92,8 +92,8 @@ def programsActivites(request):
 #{}
 def comptesRendus(request):
     img20211015 = [f for f in listdir('./static/img/dejeuner20211015') if isfile(join('./static/img/dejeuner20211015', f))] ; img20211015.sort()
-    imgPaysGalles = [f for f in listdir('./static/img/paysGalles') if isfile(join('./static/img/paysGalles', f))] ; imgPaysGalles.sort()
-    imgVoyageVietnam = [f for f in listdir('./static/img/voyageVietnam') if isfile(join('./static/img/voyageVietnam', f))] ; imgVoyageVietnam.sort()
+    imgPaysGalles = [f for f in listdir('./static/img/paysGalles2018') if isfile(join('./static/img/paysGalles2018', f))] ; imgPaysGalles.sort()
+    imgVoyageVietnam = [f for f in listdir('./static/img/voyageVietnam2015') if isfile(join('./static/img/voyageVietnam2015', f))] ; imgVoyageVietnam.sort()
     imgEpiphanie2016 = [f for f in listdir('./static/img/epiphanie2016') if isfile(join('./static/img/epiphanie2016', f))] ; imgEpiphanie2016.sort()
     img20151009 = [f for f in listdir('./static/img/dejeuner20151009') if isfile(join('./static/img/dejeuner20151009', f))] ; img20151009.sort()
     imgEpiphanie2017 = [f for f in listdir('./static/img/epiphanie2017') if isfile(join('./static/img/epiphanie2017', f))] ; imgEpiphanie2017.sort()
@@ -101,8 +101,8 @@ def comptesRendus(request):
     imgEpiphanie2018 = [f for f in listdir('./static/img/epiphanie2018') if isfile(join('./static/img/epiphanie2018', f))] ; imgEpiphanie2018.sort()
     imgEpiphanie2019 = [f for f in listdir('./static/img/epiphanie2019') if isfile(join('./static/img/epiphanie2019', f))] ; imgEpiphanie2019.sort()
     img20181005 = [f for f in listdir('./static/img/dejeuner20181005') if isfile(join('./static/img/dejeuner20181005', f))] ; img20181005.sort()
-    imgNamibie = [f for f in listdir('./static/img/namibie') if isfile(join('./static/img/namibie', f))] ; imgNamibie.sort()
-    imgRajasthan = [f for f in listdir('./static/img/rajasthan') if isfile(join('./static/img/rajasthan', f))] ; imgRajasthan.sort()
+    imgNamibie = [f for f in listdir('./static/img/namibie2017') if isfile(join('./static/img/namibie2017', f))] ; imgNamibie.sort()
+    imgRajasthan = [f for f in listdir('./static/img/rajasthan2018') if isfile(join('./static/img/rajasthan', f))] ; imgRajasthan.sort()
     print("\t- comptesRendus.html -")
     return render(request,'comptesRendus.html', { 'img20211015': img20211015
                                                 , 'imgPaysGalles':imgPaysGalles, 'imgVoyageVietnam':imgVoyageVietnam
