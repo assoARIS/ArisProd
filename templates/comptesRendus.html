@@ -31,8 +31,15 @@
 <div class="divFilInfos">
     <div class="italic10R">06/2022</div>
     <h4>Toscane  juin 2022</h4>
-    <a href="../static/img/Toscane202206.jpg" target="_blank"><img class="imgCarousel-medium" src="../static/img/Toscane202206.jpg"/></a>
-    <br><br/>
+    <section class="sxnCarousel">
+        <div class="divCarousel">
+            {% for img in imgToscane202206 %}
+                <a href="../static/img/toscane202206/{{ img }}" target="_blank"><img class="imgCarousel-medium" src="../static/img/toscane202206/{{ img }}"/></a>
+            {% endfor %}
+        </div>
+    </section>
+    Remerciements à Marie-Claire et Gilles Morvan pour leurs photos de Florence, Pise, des Cinq Terres, et de paysages toscans.
+    <br/><br/>
 </div>
 <!---->
 <div class="divFilInfos">
@@ -257,9 +264,9 @@
 </div>
 <!---->
 <div class="divFilInfos">
-    <div class="italic10R">??</div>
-    <h4>Cuba</h4>
-    <a href="../static/img/cuba.jpg" target="_blank"><img class="imgCarousel-medium" src="../static/img/cuba.jpg"/></a>
+    <div class="italic10R">2013</div>
+    <h4>Cuba  2013</h4>
+    <a href="../static/img/Cuba2013.jpg" target="_blank"><img class="imgCarousel-medium" src="../static/img/Cuba2013.jpg"/></a>
     <br><br/>
 </div>
 <!---->
