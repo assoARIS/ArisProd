@@ -146,7 +146,7 @@ requests==2.27.1
 requests-unixsocket==0.2.0
 roman==2.0.0
 rope==0.10.5
-rsa==4.0
+rsa==4.7
 Rtree==1.0.0
 screen-resolution-extra==0.0.0
 SecretStorage==2.3.1
