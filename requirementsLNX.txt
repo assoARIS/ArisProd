@@ -175,7 +175,7 @@ typing-extensions==4.2.0
 ubuntu-advantage-tools==27.8
 ubuntu-drivers-common==0.0.0
 ufw==0.36
-ujson==5.2.0
+ujson==5.4.0
 unattended-upgrades==0.1
 uritemplate==0.6
 urllib3==1.25.8
