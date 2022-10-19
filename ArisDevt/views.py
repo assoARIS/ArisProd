@@ -104,6 +104,7 @@ def comptesRendus(request):
     imgNamibie = [f for f in listdir('./static/img/namibie2017') if isfile(join('./static/img/namibie2017', f))] ; imgNamibie.sort()
     imgRajasthan = [f for f in listdir('./static/img/rajasthan2018') if isfile(join('./static/img/rajasthan', f))] ; imgRajasthan.sort()
     imgToscane202206 = [f for f in listdir('./static/img/toscane202206') if isfile(join('./static/img/toscane202206', f))] ; imgToscane202206.sort()
+    imgMontDore202209 = [f for f in listdir('./static/img/montDore202209') if isfile(join('./static/img/montDore202209', f))] ; imgMontDore202209.sort()
     print("\t- comptesRendus.html -")
     return render(request,'comptesRendus.html', { 'img20211015': img20211015
                                                 , 'imgPaysGalles':imgPaysGalles, 'imgVoyageVietnam':imgVoyageVietnam
@@ -114,6 +115,7 @@ def comptesRendus(request):
                                                 , 'imgEpiphanie2019':imgEpiphanie2019
                                                 , 'imgNamibie':imgNamibie, 'imgRajasthan':imgRajasthan
                                                 , 'imgToscane202206':imgToscane202206
+                                                , 'imgMontDore202209':imgMontDore202209
                                                 })
 #
 def infosDiverses(request):

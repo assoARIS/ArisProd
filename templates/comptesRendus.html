@@ -27,6 +27,27 @@
 {% endblock %}
 
 {% block sxnContent %}
+
+<!---->
+<div class="divFilInfos">
+    <div class="italic10R">10/2022</div>
+    <h4>Andalousie  octobre 2022</h4>
+    <a href="../static/img/Andalousie202210.jpg" target="_blank"><img class="imgCarousel-medium" src="../static/img/Andalousie202210.jpg"/></a>
+    <br><br/>
+</div>
+<!---->
+<div class="divFilInfos">
+    <div class="italic10R">03-10/09/2022</div>
+    <h4>Mont Dore  septembre 2022</h4>
+    <section class="sxnCarousel">
+        <div class="divCarousel">
+            {% for img in imgMontDore202209 %}
+                <a href="../static/img/montDore202209/{{ img }}" target="_blank"><img class="imgCarousel-medium" src="../static/img/montDore202209/{{ img }}"/></a>
+            {% endfor %}
+        </div>
+    </section>
+    <br/><br/>
+</div>
 <!---->
 <div class="divFilInfos">
     <div class="italic10R">06/2022</div>

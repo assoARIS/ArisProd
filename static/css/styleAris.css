@@ -213,6 +213,12 @@ ul {
   transform: scaleY(1);
   transition: opacity 300ms, transform 100ms;
 }
+#infoVedette a {
+  color: var(--wheat-color);
+}
+#infoVedette a:visited {
+  color: var(--wheat-color);
+}
 /*
 #infoVedette:hover {
   transform: scaleY(1.3);
