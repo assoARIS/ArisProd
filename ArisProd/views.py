@@ -103,6 +103,11 @@ def comptesRendus(request):
     img20181005 = [f for f in listdir('./static/img/dejeuner20181005') if isfile(join('./static/img/dejeuner20181005', f))] ; img20181005.sort()
     imgNamibie = [f for f in listdir('./static/img/namibie') if isfile(join('./static/img/namibie', f))] ; imgNamibie.sort()
     imgRajasthan = [f for f in listdir('./static/img/rajasthan') if isfile(join('./static/img/rajasthan', f))] ; imgRajasthan.sort()
+    imgNamibie = [f for f in listdir('./static/img/namibie2017') if isfile(join('./static/img/namibie2017', f))] ; imgNamibie.sort()
+    imgRajasthan = [f for f in listdir('./static/img/rajasthan2018') if isfile(join('./static/img/rajasthan2018', f))] ; imgRajasthan.sort()
+    imgToscane202206 = [f for f in listdir('./static/img/toscane202206') if isfile(join('./static/img/toscane202206', f))] ; imgToscane202206.sort()
+    imgMontDore202209 = [f for f in listdir('./static/img/montDore202209') if isfile(join('./static/img/montDore202209', f))] ; imgMontDore202209.sort()
+    img20221118 = [f for f in listdir('./static/img/dejeuner20221118') if isfile(join('./static/img/dejeuner20221118', f))] ; img20221118.sort()
     print("\t- comptesRendus.html -")
     return render(request,'comptesRendus.html', { 'img20211015': img20211015
                                                 , 'imgPaysGalles':imgPaysGalles, 'imgVoyageVietnam':imgVoyageVietnam
@@ -112,6 +117,9 @@ def comptesRendus(request):
                                                 , 'imgEpiphanie2018':imgEpiphanie2018, 'img20181005':img20181005
                                                 , 'imgEpiphanie2019':imgEpiphanie2019
                                                 , 'imgNamibie':imgNamibie, 'imgRajasthan':imgRajasthan
+                                                , 'imgToscane202206':imgToscane202206
+                                                , 'imgMontDore202209':imgMontDore202209
+                                                , 'img20221118':img20221118
                                                 })
 #
 def infosDiverses(request):
